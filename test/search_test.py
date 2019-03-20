@@ -15,7 +15,7 @@ class TestSearch(unittest.TestCase):
         self.dataframe = df = json_normalize(data, 'Products_list', ['company_Id', 'owner_name', 'owner_surname', 'owner_gender', 'owner_age', 'company_state', 'comments'],
                     record_prefix='product_list_')
 
-    def Search1(self):
+    def test_search1(self):
         cs = cSearch()
         cs.ProcessSearch(product='ketchup', company_state='PR')
         self.assertEqual(cs.number_f_company, 13)
@@ -24,7 +24,7 @@ class TestSearch(unittest.TestCase):
         cs.ProcessSearch(product='water')
         self.assertEqual(cs.number_f_company, 36)
 
-    def Search2(self):
+    def test_search2(self):
         cs = cSearch()
         cs.ProcessSearch(product='water')
         self.assertEqual(cs.number_f_company, 131)
