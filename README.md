@@ -1,6 +1,7 @@
 # Teste Data Engineer Contabilizei
 
 ### Primeiro passo para a execução do programa é a instalação do Python 2.7. 
+Python 2.7 será descontinuada em janeiro de 2020.
 
 Segue o link para download:
   https://www.python.org/downloads/release/python-272/
