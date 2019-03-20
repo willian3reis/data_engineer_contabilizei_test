@@ -5,9 +5,20 @@
 Segue o link para download:
   https://www.python.org/downloads/release/python-272/
   
+Para seguir os próximos passos certifique-se se o PIP está instalado em seu computador.
+
+    Windows:
+    
+    http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/
+    
+    Linux:
+    
+    https://www.tecmint.com/install-pip-in-linux/
+  
 ### O ambiente precisa ser preparado para rodar o programa python, para isso você precisa seguir as seguintes instruções:
 
 ##### 1) Realizar o clone do projeto no gitHub em uma pasta no seu computador.
+        
 ##### 2) Instalar as bibliotecas necessárias para o projeto utilizando o seguinte comando no diretorio raiz do projeto:
 
 
