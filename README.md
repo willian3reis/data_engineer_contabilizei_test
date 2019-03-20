@@ -1,18 +1,19 @@
 # data_engineer_contabilizei_test
 
-Primeiro passo para a execução do programa é a instalação do Python 2.7. 
+### Primeiro passo para a execução do programa é a instalação do Python 2.7. 
+
 Segue o link para download:
   https://www.python.org/downloads/release/python-272/
   
-O ambiente precisa ser preparado para rodar o programa python, para isso você precisa seguir as seguintes instruções:
+### O ambiente precisa ser preparado para rodar o programa python, para isso você precisa seguir as seguintes instruções:
 
-1) Realizar o clone do projeto no gitHub em uma pasta no seu computador.
-2) Instalar as bibliotecas necessárias para o projeto utilizando o seguinte comando no diretorio raiz do projeto:
+##### 1) Realizar o clone do projeto no gitHub em uma pasta no seu computador.
+##### 2) Instalar as bibliotecas necessárias para o projeto utilizando o seguinte comando no diretorio raiz do projeto:
 
 
     pip install -r requirements.txt
 
-3) O arquivo principal do projeto é o main.py. Para acessar as funcionalidades é necessário passar 2 parâmetros na execução do arquivo principal, conforme o exemplo:
+##### 3) O arquivo principal do projeto é o main.py. Para acessar as funcionalidades é necessário passar 2 parâmetros na execução do arquivo principal, conforme o exemplo:
 
     
     python main.py --product <PRODUCT> --company_state <COMPANY_STATE>
@@ -25,7 +26,7 @@ O ambiente precisa ser preparado para rodar o programa python, para isso você p
     
     python main.py --product water
   
-4) Ao executar o arquivo principal a saída do app será:
+##### 4) Ao executar o arquivo principal a saída do app será:
 
   As buscas podem ser encontradas em  c:\0.COMPUTADOR\45.TesteContabilizei\busca_18H_15M_25S
   
